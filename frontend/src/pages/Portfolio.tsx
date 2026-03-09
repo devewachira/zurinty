@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
 import { NavLink } from 'react-router-dom'
-import { PORTFOLIO_ITEMS as allItems, Category, ALL_CATEGORIES } from '../data/portfolio'
+import { PORTFOLIO_ITEMS as allItems, type Category, ALL_CATEGORIES } from '../data/portfolio'
 
 export default function Portfolio() {
   const [active, setActive] = useState<Set<Category>>(new Set())

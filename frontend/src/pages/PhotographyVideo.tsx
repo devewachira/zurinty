@@ -1,9 +1,7 @@
 import { NavLink } from 'react-router-dom'
 import ImageMarquee from '../components/ImageMarquee'
-import { useState } from 'react'
 
 export default function PhotographyVideo() {
-  const [step, setStep] = useState(0)
   const steps = [
     {
       title: 'Development & Planning',

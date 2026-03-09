@@ -1,6 +1,5 @@
 import FAQ from '../components/FAQ'
 import ConsultationCard from '../components/ConsultationCard'
-import LeadForm from '../components/LeadForm'
 import LocalImpactBanner from '../components/LocalImpactBanner'
 import ImportanceSection from '../components/ImportanceSection'
 import Hero from '../components/Hero'
