@@ -29,6 +29,9 @@ const Lead = sequelize.define('Lead', {
     type: DataTypes.JSON, // Use JSON column for array-like storage
     defaultValue: [],
   },
+  message: {
+    type: DataTypes.TEXT,
+  },
   createdAt: {
     type: DataTypes.DATE,
     defaultValue: DataTypes.NOW,

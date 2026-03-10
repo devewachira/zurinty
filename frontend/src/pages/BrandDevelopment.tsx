@@ -36,7 +36,7 @@ export default function BrandDevelopment() {
       {/* Hero */}
       <div className="relative w-screen left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] overflow-visible text-white py-16 sm:py-24">
         <div className="absolute inset-0">
-          <img src="/proje/05f879ede9d375c10ecf4811be4f7b4ab64a9bd9-1024x791.jpg" alt="Background" className="w-full h-full object-cover" />
+          <img src="/assets/img/portfolio/dr2.png" alt="Background" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-[#141a2a]/85" />
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -89,7 +89,7 @@ export default function BrandDevelopment() {
           <div className="relative rounded-2xl overflow-hidden shadow-2xl ring-1 ring-black/10 bg-gradient-to-br from-emerald-400 via-emerald-500 to-teal-500">
             <div className="aspect-video flex items-center justify-center relative">
               <img 
-                src="/proje/05f879ede9d375c10ecf4811be4f7b4ab64a9bd9-1024x791.jpg" 
+                src="/assets/img/portfolio/01.png" 
                 alt="Brand development video" 
                 className="w-full h-full object-cover opacity-60"
               />
@@ -140,7 +140,7 @@ export default function BrandDevelopment() {
             {/* Image with overlay */}
             <div className="relative rounded-xl overflow-hidden shadow-xl">
               <img 
-                src="/proje/05f879ede9d375c10ecf4811be4f7b4ab64a9bd9-1024x791.jpg" 
+                src="/assets/img/portfolio/10.png" 
                 alt="Brand package" 
                 className="w-full aspect-[4/3] object-cover"
               />
@@ -219,7 +219,7 @@ export default function BrandDevelopment() {
               <div className="relative rounded-2xl overflow-hidden shadow-2xl ring-1 ring-black/10 bg-gradient-to-br from-emerald-400 to-teal-500 p-8">
                 <div className="bg-white rounded-xl p-6 shadow-lg">
                   <img 
-                    src="/proje/05f879ede9d375c10ecf4811be4f7b4ab64a9bd9-1024x791.jpg" 
+                    src="/assets/img/portfolio/1.png" 
                     alt="Website mockup" 
                     className="rounded-lg w-full aspect-video object-cover"
                   />
@@ -249,14 +249,14 @@ export default function BrandDevelopment() {
             <div className="relative grid grid-cols-2 gap-4">
               <div className="rounded-2xl overflow-hidden shadow-xl ring-1 ring-black/10 transform rotate-3">
                 <img 
-                  src="/proje/05f879ede9d375c10ecf4811be4f7b4ab64a9bd9-1024x791.jpg" 
+                  src="/assets/img/portfolio/2.png" 
                   alt="Design example 1" 
                   className="w-full aspect-[3/4] object-cover"
                 />
               </div>
               <div className="rounded-2xl overflow-hidden shadow-xl ring-1 ring-black/10 transform -rotate-3 mt-8">
                 <img 
-                  src="/proje/05f879ede9d375c10ecf4811be4f7b4ab64a9bd9-1024x791.jpg" 
+                  src="/assets/img/portfolio/3.png" 
                   alt="Design example 2" 
                   className="w-full aspect-[3/4] object-cover"
                 />
@@ -320,7 +320,7 @@ export default function BrandDevelopment() {
       <div className="relative w-screen left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] overflow-hidden py-20 sm:py-32">
         <div className="absolute inset-0">
           <img 
-            src="/proje/05f879ede9d375c10ecf4811be4f7b4ab64a9bd9-1024x791.jpg" 
+            src="/assets/img/portfolio/4.png" 
             alt="Background" 
             className="w-full h-full object-cover"
           />

@@ -5,7 +5,7 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 export const createLead = async (req, res) => {
-  const { firstName, lastName, email, phone, services } = req.body;
+  const { firstName, lastName, email, phone, services, message } = req.body;
 
   if (!email || !firstName || !lastName) {
     return res.status(400).json({ message: 'Required fields are missing' });
@@ -17,7 +17,8 @@ export const createLead = async (req, res) => {
       lastName,
       email,
       phone,
-      services
+      services,
+      message
     });
 
     await transporter.sendMail({
@@ -30,6 +31,7 @@ export const createLead = async (req, res) => {
         <p><strong>Email:</strong> ${email}</p>
         <p><strong>Phone:</strong> ${phone || 'Not provided'}</p>
         <p><strong>Requested Services:</strong> ${services && services.length > 0 ? services.join(', ') : 'None selected'}</p>
+        <p><strong>Message:</strong> ${message || 'No message provided'}</p>
       `,
     });
 

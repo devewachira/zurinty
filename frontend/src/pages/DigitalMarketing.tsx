@@ -54,7 +54,7 @@ export default function DigitalMarketing() {
             </NavLink>
           </div>
           <div className="max-w-3xl">
-            <img src="/proje/JSL_white.svg" alt="JSL" className="h-10 w-10 mb-6" />
+            <img src="/assets/img/portfolio/co1.png" alt="JSL" className="h-10 w-10 mb-6" />
             <div className="text-emerald-400 font-semibold tracking-wide">Essential Services</div>
             <h1 className="mt-3 text-5xl sm:text-6xl font-extrabold tracking-tight">Digital Marketing</h1>
             <p className="mt-6 text-white/85 leading-relaxed">
@@ -91,7 +91,7 @@ export default function DigitalMarketing() {
           </div>
           <div className="relative">
             <img
-              src="/proje/20190215_JSL_Photos-27-1.jpg"
+              src="/assets/img/portfolio/co2.png"
               alt="Digital marketing team"
               className="rounded-2xl shadow-xl border w-full max-w-[520px] lg:ml-auto"
             />
@@ -150,7 +150,7 @@ export default function DigitalMarketing() {
           <div className="relative">
             <div className="absolute -top-6 -right-6 h-28 w-40 rounded-2xl bg-emerald-400" />
             <img
-              src="/proje/c6597e75a4ec1f296c1a8e7460963b4831ec35ef.jpg"
+              src="/assets/img/portfolio/dr1.png"
               alt="Team collaborating"
               className="relative rounded-2xl shadow-xl border w-full max-w-[560px]"
             />

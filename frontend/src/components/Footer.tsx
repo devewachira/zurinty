@@ -42,13 +42,13 @@ export default function Footer() {
   }
 
   return (
-    <footer className="bg-[#0b1b2a] text-white pt-20 pb-10">
+    <footer className="bg-[#0b1b2a] text-white pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Top Section: Branding & Newsletter */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 pb-16 border-b border-white/10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 pb-12 border-b border-white/10">
           <div className="max-w-md">
             <NavLink to="/" className="flex items-center gap-2 mb-6">
-              <img src="/assets/img/1.png" alt="Zurinty logo" className="h-16 w-auto object-contain" />
+              <img src="/assets/img/portfolio/logo/1.png" alt="Zurinty logo" className="h-14 w-auto object-contain" />
             </NavLink>
             <p className="text-gray-400 text-lg leading-relaxed">
               Based in Nairobi, Kenya, we're a full-service creative agency dedicated to helping brands stand out in the digital landscape through innovative design and strategic marketing.
@@ -150,10 +150,10 @@ export default function Footer() {
         </div>
 
         {/* Middle Section: Quick Links */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-12 py-16">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-12 py-12">
           <div className="col-span-1">
             <h4 className="text-emerald-500 font-bold uppercase tracking-widest text-sm mb-6">Services</h4>
-            <ul className="space-y-4 text-gray-400">
+            <ul className="space-y-3 text-gray-400">
               <li><NavLink to="/services/website-design" className="hover:text-white transition-colors">Website Design</NavLink></li>
               <li><NavLink to="/services/brand-development" className="hover:text-white transition-colors">Branding</NavLink></li>
               <li><NavLink to="/services/seo-strategy" className="hover:text-white transition-colors">SEO Strategy</NavLink></li>
@@ -164,7 +164,7 @@ export default function Footer() {
 
           <div className="col-span-1">
             <h4 className="text-emerald-500 font-bold uppercase tracking-widest text-sm mb-6">Company</h4>
-            <ul className="space-y-4 text-gray-400">
+            <ul className="space-y-3 text-gray-400">
               <li><NavLink to="/about" className="hover:text-white transition-colors">Our Story</NavLink></li>
               <li><NavLink to="/portfolio" className="hover:text-white transition-colors">Portfolio</NavLink></li>
               <li><NavLink to="/blog" className="hover:text-white transition-colors">Blog</NavLink></li>
@@ -174,7 +174,7 @@ export default function Footer() {
 
           <div className="col-span-2 md:col-span-1 lg:pl-10">
             <h4 className="text-emerald-500 font-bold uppercase tracking-widest text-sm mb-6">Support</h4>
-            <ul className="space-y-4 text-gray-400">
+            <ul className="space-y-3 text-gray-400">
               <li><NavLink to="/contact" className="hover:text-white transition-colors">Contact Us</NavLink></li>
               <li><a href="#" className="hover:text-white transition-colors">Privacy Policy</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Terms of Service</a></li>
@@ -184,7 +184,7 @@ export default function Footer() {
 
           <div className="col-span-2 md:col-span-1">
             <h4 className="text-emerald-500 font-bold uppercase tracking-widest text-sm mb-6">Contact</h4>
-            <ul className="space-y-4 text-gray-400">
+            <ul className="space-y-3 text-gray-400">
               <li className="flex items-start gap-3">
                 <span className="text-emerald-500 mt-1">📍</span>
                 <span>Nairobi, Kenya<br />Kilimani Business Center</span>
@@ -202,7 +202,7 @@ export default function Footer() {
         </div>
 
         {/* Bottom Section: Copyright */}
-        <div className="pt-10 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-6">
+        <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-gray-500 text-sm text-center md:text-left">
             © {new Date().getFullYear()} Zurinty Marketing. All rights reserved. 
             <span className="hidden md:inline mx-2">|</span>

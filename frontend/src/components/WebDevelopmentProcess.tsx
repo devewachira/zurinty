@@ -28,24 +28,34 @@ export default function WebDevelopmentProcess() {
   ]
 
   return (
-    <section className="relative w-screen left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] py-16 sm:py-24 text-white overflow-hidden">
-      <div className="absolute inset-0 bg-slate-900" />
+    <section className="relative py-20 sm:py-32 bg-slate-900 text-white overflow-hidden">
+      <div className="absolute top-0 left-0 w-full h-full opacity-10 pointer-events-none">
+        <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-emerald-500 rounded-full blur-[120px]" aria-hidden="true" />
+        <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-blue-500 rounded-full blur-[120px]" aria-hidden="true" />
+      </div>
+      
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="mb-16">
-          <h3 className="text-emerald-400 text-lg font-semibold mb-4">Web Development Process</h3>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight">
-            At Zurinty Marketing, we follow a proven web development process that ensures your website is completed on time, within budget, and meets your unique needs and goals.
+        <div className="mb-16 md:mb-24">
+          <div className="inline-block px-4 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-sm font-bold mb-6">
+            Web Development Process
+          </div>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight leading-tight max-w-5xl">
+            A proven methodology that ensures your website is delivered on time, within budget, and exceeds expectations.
           </h2>
         </div>
 
-        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {steps.map((step) => (
-            <div key={step.number}>
-              <div className="flex items-center gap-4 mb-4">
-                <div className="text-emerald-400 text-2xl font-bold">{step.number}</div>
-                <div className="text-2xl font-bold text-emerald-400">{step.title}</div>
+            <div key={step.number} className="group p-8 rounded-3xl bg-white/5 border border-white/10 hover:bg-white/10 hover:border-emerald-500/30 transition-all duration-300">
+              <div className="flex items-center gap-4 mb-6">
+                <div className="w-12 h-12 rounded-2xl bg-emerald-500/20 flex items-center justify-center text-emerald-400 text-xl font-bold border border-emerald-500/30 group-hover:bg-emerald-500 group-hover:text-white transition-colors duration-300">
+                  {step.number}
+                </div>
+                <h3 className="text-2xl font-bold text-white group-hover:text-emerald-400 transition-colors">
+                  {step.title}
+                </h3>
               </div>
-              <p className="text-white/80 leading-relaxed">
+              <p className="text-slate-300 leading-relaxed text-lg">
                 {step.description}
               </p>
             </div>

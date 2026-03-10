@@ -9,7 +9,7 @@ export default function Services() {
       <div className="relative overflow-hidden w-screen left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] text-white py-16 sm:py-24">
         <div className="absolute inset-0">
           <img
-            src="/proje/05f879ede9d375c10ecf4811be4f7b4ab64a9bd9-1024x791.jpg"
+            src="/assets/img/portfolio/dr2.png"
             alt="Nairobi skyline"
             className="w-full h-full object-cover"
           />

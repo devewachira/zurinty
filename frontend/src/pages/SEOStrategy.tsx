@@ -9,7 +9,7 @@ export default function SEOStrategy() {
       {/* Hero */}
       <div className="relative w-screen left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] overflow-visible text-white py-16 sm:py-24">
         <div className="absolute inset-0">
-          <img src="/proje/05f879ede9d375c10ecf4811be4f7b4ab64a9bd9-1024x791.jpg" alt="Background" className="w-full h-full object-cover" />
+          <img src="/assets/img/portfolio/1.png" alt="Background" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-[#141a2a]/90" />
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -106,7 +106,7 @@ export default function SEOStrategy() {
             <div className="relative">
               <div className="absolute -top-8 left-24 bg-emerald-600 w-28 h-28 rounded-3xl" />
               <div className="relative rounded-2xl overflow-hidden shadow-2xl ring-1 ring-black/10">
-                <img src="/proje/05f879ede9d375c10ecf4811be4f7b4ab64a9bd9-1024x791.jpg" alt="SEO audit" className="w-full h-full object-cover aspect-[4/3]" />
+                <img src="/assets/img/portfolio/2.png" alt="SEO audit" className="w-full h-full object-cover aspect-[4/3]" />
               </div>
             </div>
             <div>
@@ -139,7 +139,7 @@ export default function SEOStrategy() {
             <div className="relative">
               <div className="absolute -top-8 right-12 bg-emerald-400/70 w-44 h-44 rounded-3xl" />
               <div className="relative rounded-2xl overflow-hidden shadow-2xl ring-1 ring-black/10">
-                <img src="/proje/05f879ede9d375c10ecf4811be4f7b4ab64a9bd9-1024x791.jpg" alt="Strategy" className="w-full h-full object-cover aspect-[3/4]" />
+                <img src="/assets/img/portfolio/3.png" alt="Strategy" className="w-full h-full object-cover aspect-[3/4]" />
               </div>
             </div>
           </div>
@@ -151,7 +151,7 @@ export default function SEOStrategy() {
         <div className="relative h-[620px]">
           {/* Background image */}
           <img
-            src="/proje/05f879ede9d375c10ecf4811be4f7b4ab64a9bd9-1024x791.jpg"
+            src="/assets/img/portfolio/4.png"
             alt="SEO background"
             className="absolute inset-0 w-full h-full object-cover z-0 brightness-75"
           />

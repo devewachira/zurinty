@@ -45,7 +45,7 @@ export default function BenefitsWithJSL() {
           </p>
 
           <h3 className="mt-8 text-lg font-semibold text-navy-900">
-            Some of the benefits of working with JSL Marketing include:
+            Some of the benefits of working with Zurinty Marketing include:
           </h3>
 
           <ul className="mt-4 space-y-4">
@@ -66,15 +66,15 @@ export default function BenefitsWithJSL() {
           <div className="space-y-4">
             <div className="rounded-2xl overflow-hidden shadow-xl ring-1 ring-black/5">
               <img
-                src="/proje/05f879ede9d375c10ecf4811be4f7b4ab64a9bd9-1024x791.jpg"
-                alt="Nairobi skyline"
+                src="/assets/img/portfolio/aviance/8.png"
+                alt="Digital strategy showcase"
                 className="w-full h-full object-cover aspect-[4/3]"
               />
             </div>
             <div className="rounded-2xl overflow-hidden shadow-xl ring-1 ring-black/5">
               <img
-                src="/proje/laptop.jpg"
-                alt="Team at work"
+                src="/assets/img/portfolio/aviance/9.png"
+                alt="Web development project"
                 className="w-full h-full object-cover aspect-[4/3]"
               />
             </div>

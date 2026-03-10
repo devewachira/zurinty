@@ -215,13 +215,13 @@ export default function Contact() {
       <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-14">
         <div className="grid gap-10 md:grid-cols-2 items-start">
           {/* Map */}
-          <div className="w-full overflow-hidden rounded-2xl shadow">
+          <div className="w-full overflow-hidden rounded-2xl shadow-xl ring-1 ring-gray-100">
             <iframe
-              title="USA Map"
-              className="h-[380px] w-full"
+              title="Zurinty Nairobi Office"
+              className="h-[450px] w-full"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              src="https://www.google.com/maps/embed?pb=!1m3!1d3306855.1716652227!2d-113.7!3d36.08!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zVVM!5e0!3m2!1sen!2sus!4v1683311111111"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127640.7554559146!2d36.77274404018805!3d-1.3031124443903102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1172d84d49a7%3A0xf7cf0254b297924c!2sNairobi%2C%20Kenya!5e0!3m2!1sen!2sus!4v1710100000000!5m2!1sen!2sus"
             />
           </div>
 

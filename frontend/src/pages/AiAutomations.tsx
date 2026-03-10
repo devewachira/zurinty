@@ -22,7 +22,7 @@ export default function AiAutomations() {
       {/* Hero */}
       <div className="relative w-screen left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] overflow-visible text-white py-16 sm:py-24">
         <div className="absolute inset-0">
-          <img src="/proje/05f879ede9d375c10ecf4811be4f7b4ab64a9bd9-1024x791.jpg" alt="Background" className="w-full h-full object-cover" />
+          <img src="/assets/img/portfolio/4.png" alt="Background" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-[#141a2a]/90" />
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -81,7 +81,7 @@ Intelligent automation simplifies, accelerates, and transforms the way work gets
           </div>
           <div className="relative">
             <div className="rounded-2xl overflow-hidden shadow-2xl ring-1 ring-black/10 w-full md:w-[420px] lg:w-[480px] mx-auto lg:ml-auto">
-              <img src="/proje/05f879ede9d375c10ecf4811be4f7b4ab64a9bd9-1024x791.jpg" alt="Team creating content" className="w-full h-full object-cover aspect-[3/4]" />
+              <img src="/assets/img/portfolio/co1.png" alt="Team creating content" className="w-full h-full object-cover aspect-[3/4]" />
             </div>
           </div>
         </div>
@@ -94,7 +94,7 @@ Intelligent automation simplifies, accelerates, and transforms the way work gets
             <div className="relative">
               <div className="absolute -top-6 right-28 bg-emerald-500 w-24 h-24 rounded-3xl" />
               <div className="relative rounded-2xl overflow-hidden shadow-2xl ring-1 ring-black/10 w-full md:w-[420px] lg:w-[520px]">
-                <img src="/proje/05f879ede9d375c10ecf4811be4f7b4ab64a9bd9-1024x791.jpg" alt="Content workshop" className="w-full h-full object-cover aspect-[3/4]" />
+                <img src="/assets/img/portfolio/co2.png" alt="Content workshop" className="w-full h-full object-cover aspect-[3/4]" />
               </div>
             </div>
             <div>
@@ -175,7 +175,7 @@ ensuring you get maximum value from AI automation while building long-term opera
               <div className="absolute -top-6 -right-10 bg-gradient-to-br from-emerald-500 to-teal-600 w-44 h-40 rounded-3xl" />
               <div className="relative rounded-2xl overflow-hidden shadow-2xl ring-1 ring-white/10">
                 <img
-                  src="/proje/05f879ede9d375c10ecf4811be4f7b4ab64a9bd9-1024x791.jpg"
+                  src="/assets/img/portfolio/dr1.png"
                   alt="Blogging collaboration"
                   className="w-full h-full object-cover aspect-[4/3]"
                 />
@@ -234,7 +234,7 @@ ensuring you get maximum value from AI automation while building long-term opera
             <div className="absolute -top-6 left-24 bg-emerald-500 w-28 h-28 rounded-3xl" />
             <div className="relative rounded-2xl overflow-hidden shadow-2xl ring-1 ring-black/10">
               <img
-                src="/proje/05f879ede9d375c10ecf4811be4f7b4ab64a9bd9-1024x791.jpg"
+                src="/assets/img/portfolio/dr2.png"
                 alt="Typing on laptop"
                 className="w-full h-full object-cover aspect-[3/4]"
               />
@@ -306,7 +306,7 @@ ensuring you get maximum value from AI automation while building long-term opera
           <div className="relative overflow-hidden rounded-2xl shadow-2xl ring-1 ring-black/10">
             {/* Background image */}
             <img
-              src="/proje/05f879ede9d375c10ecf4811be4f7b4ab64a9bd9-1024x791.jpg"
+              src="/assets/img/portfolio/01.png"
               alt="People collaborating"
               className="absolute inset-0 w-full h-full object-cover opacity-70"
             />

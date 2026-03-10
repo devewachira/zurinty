@@ -17,7 +17,7 @@ export default function EmailMarketing() {
       {/* Hero */}
       <div className="relative w-screen left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] overflow-visible text-white py-16 sm:py-24">
         <div className="absolute inset-0">
-          <img src="/proje/05f879ede9d375c10ecf4811be4f7b4ab64a9bd9-1024x791.jpg" alt="Background" className="w-full h-full object-cover" />
+          <img src="/assets/img/portfolio/dr1.png" alt="Background" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-[#141a2a]/90" />
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -77,7 +77,7 @@ export default function EmailMarketing() {
           <div className="relative">
             <div className="absolute -top-6 right-24 bg-emerald-500 w-24 h-24 rounded-3xl" />
             <div className="relative rounded-2xl overflow-hidden shadow-2xl ring-1 ring-black/10 w-full md:w-[420px] lg:w-[520px] lg:ml-auto">
-              <img src="/proje/c6597e75a4ec1f296c1a8e7460963b4831ec35ef.jpg" alt="Team planning email marketing" className="w-full h-full object-cover aspect-[3/4]" />
+              <img src="/assets/img/portfolio/dr2.png" alt="Team planning email marketing" className="w-full h-full object-cover aspect-[3/4]" />
             </div>
           </div>
         </div>
@@ -90,7 +90,7 @@ export default function EmailMarketing() {
           <div className="relative order-2 lg:order-1">
             <div className="absolute -top-6 left-24 bg-[#1b1f3a]/90 w-24 h-24 rounded-3xl" />
             <div className="relative rounded-2xl overflow-hidden shadow-2xl ring-1 ring-black/10 w-full md:w-[420px] lg:w-[520px]">
-              <img src="/proje/20190215_JSL_Photos-27-1.jpg" alt="Email campaign examples" className="w-full h-full object-cover aspect-[3/4]" />
+              <img src="/assets/img/portfolio/01.png" alt="Email campaign examples" className="w-full h-full object-cover aspect-[3/4]" />
             </div>
           </div>
 
@@ -132,7 +132,7 @@ export default function EmailMarketing() {
           <div className="relative">
             <div className="absolute -top-6 -right-6 bg-emerald-500 w-28 h-28 rounded-3xl" />
             <div className="relative rounded-2xl overflow-hidden shadow-2xl ring-1 ring-black/10 w-full md:w-[420px] lg:w-[520px] lg:ml-auto">
-              <img src="/proje/05f879ede9d375c10ecf4811be4f7b4ab64a9bd9-1024x791.jpg" alt="Team reviewing email metrics" className="w-full h-full object-cover aspect-[3/4]" />
+              <img src="/assets/img/portfolio/10.png" alt="Team reviewing email metrics" className="w-full h-full object-cover aspect-[3/4]" />
             </div>
           </div>
         </div>
@@ -143,7 +143,7 @@ export default function EmailMarketing() {
         <div className="mx-auto max-w-5xl">
           <div className="relative overflow-hidden rounded-2xl shadow-2xl ring-1 ring-black/10">
             <img
-              src="/proje/20190215_JSL_Photos-27-1.jpg"
+              src="/assets/img/portfolio/1.png"
               alt="People collaborating"
               className="absolute inset-0 w-full h-full object-cover opacity-70"
             />

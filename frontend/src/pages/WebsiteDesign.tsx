@@ -33,7 +33,7 @@ export default function WebsiteDesign() {
       {/* Hero */}
       <div className="relative w-screen left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] overflow-visible text-white py-16 sm:py-24">
         <div className="absolute inset-0">
-          <img src="/proje/05f879ede9d375c10ecf4811be4f7b4ab64a9bd9-1024x791.jpg" alt="Background" className="w-full h-full object-cover" />
+          <img src="/assets/img/portfolio/co1.png" alt="Background" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-[#141a2a]/85" />
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -122,7 +122,7 @@ export default function WebsiteDesign() {
             <div className="relative">
               <div className="absolute -top-10 -left-10 w-40 h-40 bg-emerald-500/20 rounded-full blur-3xl" />
               <img
-                src="/proje/c6597e75a4ec1f296c1a8e7460963b4831ec35ef.jpg"
+                src="/assets/img/portfolio/co2.png"
                 alt="Website design team"
                 className="relative rounded-2xl shadow-2xl ring-1 ring-white/10 w-full max-w-md mx-auto object-cover aspect-[4/5]"
               />
@@ -178,7 +178,7 @@ export default function WebsiteDesign() {
             <div className="absolute -top-8 right-[130px] bg-emerald-500 w-32 h-32 rounded-3xl" />
             <div className="relative rounded-2xl overflow-hidden shadow-2xl ring-1 ring-black/10 w-full md:w-[380px] lg:w-[420px]">
               <img
-                src="/proje/05f879ede9d375c10ecf4811be4f7b4ab64a9bd9-1024x791.jpg"
+                src="/assets/img/portfolio/dr1.png"
                 alt="Building architecture"
                 className="w-full h-full object-cover aspect-[3/4]"
               />

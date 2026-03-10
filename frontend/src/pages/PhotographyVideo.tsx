@@ -22,7 +22,7 @@ export default function PhotographyVideo() {
       {/* Hero */}
       <div className="relative w-screen left-1/2 right-1/2 -ml-[50vw] -mr-[50vw] overflow-visible text-white py-16 sm:py-24">
         <div className="absolute inset-0">
-          <img src="/proje/05f879ede9d375c10ecf4811be4f7b4ab64a9bd9-1024x791.jpg" alt="Background" className="w-full h-full object-cover" />
+          <img src="/assets/img/portfolio/co2.png" alt="Background" className="w-full h-full object-cover" />
           <div className="absolute inset-0 bg-[#141a2a]/90" />
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -79,7 +79,7 @@ export default function PhotographyVideo() {
           <div className="relative">
             <div className="absolute -top-10 -right-10 w-40 h-40 bg-emerald-500/20 rounded-full blur-3xl" />
             <img 
-              src="/proje/05f879ede9d375c10ecf4811be4f7b4ab64a9bd9-1024x791.jpg" 
+              src="/assets/img/portfolio/dr1.png" 
               alt="Photography session" 
               className="relative rounded-2xl shadow-2xl ring-1 ring-black/10 w-full max-w-lg mx-auto object-cover aspect-[4/3]" 
             />
@@ -94,7 +94,7 @@ export default function PhotographyVideo() {
             <div className="relative order-2 lg:order-1">
               <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-navy-900/10 rounded-full blur-3xl" />
               <img 
-                src="/proje/05f879ede9d375c10ecf4811be4f7b4ab64a9bd9-1024x791.jpg" 
+                src="/assets/img/portfolio/dr2.png" 
                 alt="Video production set" 
                 className="relative rounded-2xl shadow-2xl ring-1 ring-black/10 w-full max-w-lg mx-auto object-cover aspect-[4/3]" 
               />
@@ -179,7 +179,7 @@ export default function PhotographyVideo() {
             <div className="relative">
               <div className="absolute -top-10 -right-10 w-40 h-40 bg-emerald-500/20 rounded-full blur-3xl" />
               <img 
-                src="/proje/05f879ede9d375c10ecf4811be4f7b4ab64a9bd9-1024x791.jpg" 
+                src="/assets/img/portfolio/01.png" 
                 alt="Production equipment" 
                 className="relative rounded-2xl shadow-2xl ring-1 ring-white/10 w-full max-w-md mx-auto object-cover aspect-[4/5]" 
               />
@@ -212,7 +212,7 @@ export default function PhotographyVideo() {
           <div className="relative">
             <div className="absolute -top-8 left-24 bg-emerald-600 w-28 h-28 rounded-3xl" />
             <div className="relative rounded-2xl overflow-hidden shadow-2xl ring-1 ring-black/10">
-              <img src="/proje/05f879ede9d375c10ecf4811be4f7b4ab64a9bd9-1024x791.jpg" alt="Final project meeting" className="w-full h-full object-cover aspect-[4/3]" />
+              <img src="/assets/img/portfolio/10.png" alt="Final project meeting" className="w-full h-full object-cover aspect-[4/3]" />
             </div>
           </div>
           <div>
