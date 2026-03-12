@@ -2,6 +2,8 @@ import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import dns from 'dns';
+import path from 'path';
+import { fileURLToPath } from 'url';
 import sequelize from './db/index.js';
 import apiRoutes from './routes/api.js';
 
@@ -10,6 +12,10 @@ dotenv.config();
 
 const app = express();
 const port = process.env.PORT || 5000;
+
+/* Fix for __dirname in ES modules */
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 app.use(cors({
   origin: [
@@ -23,13 +29,15 @@ app.use(cors({
 
 app.use(express.json());
 
-/* ROOT ROUTE */
-app.get('/', (req, res) => {
-  res.send('API server is running');
-});
-
 /* API ROUTES */
 app.use('/api', apiRoutes);
+
+/* SERVE REACT BUILD */
+app.use(express.static(path.join(__dirname, "dist")));
+
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "dist", "index.html"));
+});
 
 /* DATABASE CONNECTION */
 sequelize.authenticate()
