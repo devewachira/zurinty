@@ -40,7 +40,7 @@ export const subscribe = async (req, res) => {
             <h2 style="color: #0b1b2a; border-bottom: 2px solid #10b981; padding-bottom: 5px; margin-top: 30px;">Who We Are</h2>
             <p>Based in Nairobi, Kenya, <strong>Zurinty Marketing</strong> is a full-service creative agency dedicated to helping brands stand out in the digital landscape.</p>
             <div style="margin-top: 40px; text-align: center;">
-              <a href="https://zurinty.com/contact" style="background-color: #10b981; color: #0b1b2a; padding: 15px 25px; text-decoration: none; border-radius: 30px; font-weight: bold; display: inline-block;">Request a Free Quote</a>
+              <a href="https://mwangichris.com/contact" style="background-color: #10b981; color: #0b1b2a; padding: 15px 25px; text-decoration: none; border-radius: 30px; font-weight: bold; display: inline-block;">Request a Free Quote</a>
             </div>
             <p style="margin-top: 40px; font-size: 14px; color: #666; text-align: center;">
               © ${new Date().getFullYear()} Zurinty Marketing. Nairobi, Kenya.
