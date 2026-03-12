@@ -20,12 +20,18 @@ app.use(cors({
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
+
 app.use(express.json());
 
-// Routes
+/* ROOT ROUTE */
+app.get('/', (req, res) => {
+  res.send('API server is running');
+});
+
+/* API ROUTES */
 app.use('/api', apiRoutes);
 
-// MySQL connection and synchronization
+/* DATABASE CONNECTION */
 sequelize.authenticate()
   .then(() => {
     console.log('Connected to MySQL');
